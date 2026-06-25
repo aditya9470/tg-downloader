@@ -60,7 +60,7 @@ async def handle_video_link(update: Update, context: ContextTypes.DEFAULT_TYPE):
         await status_message.edit_text("❌ Sorry! Ye video download nahi ho payi. Link check karein ya thodi der baad try karein.")
 
 def main():
-    TOKEN = '8636575145:AAG2PE34kmo-Z4cvRdKp0mxbeZiJuWvgMDE'
+    TOKEN = '8636575145:AAG2PE34kmo-Z4cvRdKpOmxbeZiJUwvgmDE'
     
     app = Application.builder().token(TOKEN).build()
     app.add_handler(CommandHandler("start", start_command))
